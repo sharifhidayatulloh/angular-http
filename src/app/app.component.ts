@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   pageTitle = 'Employee Database';
+  defaulfId: number = 1;
 }

@@ -1,3 +1,9 @@
-<h1 style="text-align: center;">Welcome to {{pageTitle}}</h1>
-<app-employee-list></app-employee-list>
-<app-employee-detail></app-employee-detail>
+<div style="text-align: center;">
+  <h1>Routing and Navigation</h1>
+</div>
+<nav>
+  <a routerLink="/departments/{{defaulfId}}" routerLinkActive="active">Departments</a>&nbsp;
+  <a routerLink="/employees" routerLinkActive="active">Employees</a>
+</nav>
+<router-outlet></router-outlet>
+<!-- Routed views go here  -->
